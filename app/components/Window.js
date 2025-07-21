@@ -6,7 +6,7 @@ const Window = () => {
       {/* Airplane window shape - rounded rectangle with very rounded corners */}
       <div
         id='first'
-        className="w-[300px] h-[400px] bg-[#e0e0d8] border-[20px] border-[#b1b0ab] shadow-[inset_0_4px_8px_rgba(0,0,0,0.2),_0_8px_20px_rgba(0,0,0,0.3)] mt-[50px] mb-[50px]"
+        className="w-[300px] h-[400px] bg-[#e0e0d8] border-[20px] border-[#b1b0ab] shadow-[inset_0_4px_8px_rgba(0,0,0,0.2),_0_8px_20px_rgba(0,0,0,0.3)]  mb-[50px]"
         style={{
           borderRadius: '80px',
           WebkitMaskImage: 'linear-gradient(to left, black 40%, transparent 70%)',
@@ -32,7 +32,7 @@ const Window = () => {
        <div
        id='second'
         className="w-[300px] h-[400px] bg-[#e0e0d8] border-[20px] border-[#b1b0ab] shadow-[inset_0_4px_8px_rgba(0,0,0,0.2),_0_8px_20px_rgba(0,0,0,0.3)]
-        mt-[50px] mb-[50px]
+         mb-[30px]
         "
         style={{
           borderRadius: '80px',
@@ -57,7 +57,7 @@ const Window = () => {
        <div
        id='third'
         className="w-[300px] h-[400px] bg-[#e0e0d8] border-[20px] border-[#b1b0ab] shadow-[inset_0_4px_8px_rgba(0,0,0,0.2),_0_8px_20px_rgba(0,0,0,0.3)]
-        mt-[50px] mb-[50px]
+           mb-[50px]
         "
          style={{
           borderRadius: '80px',
